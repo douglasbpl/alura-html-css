@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
 </head>
+
 <body>
     <header>
         <div class="caixa">
@@ -24,10 +26,12 @@
     <main>
         <form method="POST">
             <label for="name">Nome e sobrenome</label>
-            <input class="input-padrao" placeholder="Rodrigo Rosa Zavan" type="text" name="name" id="name" autocomplete="none" required>
-            
-            <label  for="email">Email</label>
-            <input class="input-padrao" type="email" id="email" placeholder="email@email.com" autocomplete="none" required>
+            <input class="input-padrao" placeholder="Rodrigo Rosa Zavan" type="text" name="name" id="name"
+                autocomplete="none" required>
+
+            <label for="email">Email</label>
+            <input class="input-padrao" type="email" id="email" placeholder="email@email.com" autocomplete="none"
+                required>
 
             <label for="telefone">Telefone</label>
             <input class="input-padrao" type="tel" placeholder="XX XXXX-XXXX" id="telefone">
@@ -38,11 +42,13 @@
             <fieldset>
                 <legend>Como prefere nosso contato?</legend>
                 <label for="radio-email"><input name="contato" type="radio" id="radio-email" value="email">Email</label>
-                <label for="radio-telefone"><input name="contato" type="radio" id="radio-telefone" value="telefone">Telefone</label>
-                <label for="radio-whatsapp"><input checked name="contato" type="radio" id="radio-whatsapp" value="whatsapp">WhatsApp</label>
+                <label for="radio-telefone"><input name="contato" type="radio" id="radio-telefone"
+                        value="telefone">Telefone</label>
+                <label for="radio-whatsapp"><input checked name="contato" type="radio" id="radio-whatsapp"
+                        value="whatsapp">WhatsApp</label>
             </fieldset>
 
-            <fieldset> 
+            <fieldset>
                 <legend>Qual horário prefere ser atendido?</legend>
                 <select name="" id="">
                     <option value="manha">Manhã</option>
@@ -50,8 +56,9 @@
                     <option value="noite">Noite</option>
                 </select>
             </fieldset>
-    
-            <label class="checkbox" for="novidades"><input checked id="novidades" type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+            <label class="checkbox" for="novidades"><input checked id="novidades" type="checkbox">Gostaria de receber
+                nossas novidades por email?</label>
 
             <input type="submit" class="enviar" value="Enviar Formulário">
         </form>
@@ -85,4 +92,5 @@
         <p class="copyright">&copy; Copyright Barbearia Alura - 2021</p>
     </footer>
 </body>
+
 </html>
