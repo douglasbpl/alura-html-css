@@ -3,4 +3,4 @@
     <img style="margin-left: 30px;" src="https://cursos.alura.com.br/assets/images/logos/logo-alura.svg" width="120" title="hover text">
 </p>
 
-<p>Este é um repositório de cursos que realizei na plataforma alura em parcerica com a empresa HCosta (Advocacia Neves Costa)</p>
+<p>Este é um repositório dos cursos relacionados a HTML e CSS no qual realizei na plataforma alura em parcerica com a empresa HCosta (Advocacia Neves Costa)</p>
